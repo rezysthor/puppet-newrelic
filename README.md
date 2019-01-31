@@ -1,6 +1,7 @@
 # puppet-newrelic
 
-[![Build Status](https://secure.travis-ci.org/claranet/puppet-newrelic.png?branch=master)](http://travis-ci.org/claranet/puppet-newrelic)
+[![Forge Endorsement](https://img.shields.io/puppetforge/e/claranet/newrelic.svg)](https://forge.puppetlabs.com/claranet/newrelic)
+[![Build Status](https://secure.travis-ci.org/claranet/puppet-newrelic.svg?branch=master)](http://travis-ci.org/claranet/puppet-newrelic)
 [![Puppet Forge](http://img.shields.io/puppetforge/v/claranet/newrelic.svg)](https://forge.puppetlabs.com/claranet/newrelic)
 [![Forge Downloads](https://img.shields.io/puppetforge/dt/claranet/newrelic.svg)](https://forge.puppetlabs.com/claranet/newrelic)
 
