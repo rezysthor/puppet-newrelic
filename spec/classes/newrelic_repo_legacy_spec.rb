@@ -25,10 +25,12 @@ describe 'newrelic::repo::legacy', type: :class do
           'family' => 'Debian',
           'name'    => 'Debian',
           'release' => {
-            'full' => '7.0',
+            'full'  => '7.0',
+            'major' => '7',
+            'minor' => '0',
           },
         },
-        'osfamily' => 'Debian',
+        'osfamily'        => 'Debian',
         'lsbdistcodename' => 'wheezy',
       }
     end
