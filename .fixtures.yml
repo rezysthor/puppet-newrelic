@@ -9,5 +9,8 @@ fixtures:
     download_file:
       repo: "git://github.com/voxpupuli/puppet-download_file"
       ref: "v1.2.1"
+    yumrepo_core:
+      repo: "https://github.com/puppetlabs/puppetlabs-yumrepo_core.git"
+      ref: "1.0.3"
   symlinks:
     newrelic: "#{source_dir}"
