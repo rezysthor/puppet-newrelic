@@ -18,7 +18,7 @@ class newrelic::repo::infra {
       yumrepo { 'newrelic-infra':
         ensure        => 'present',
         descr         => 'New Relic Infrastructure',
-        baseurl       => "http://download.newrelic.com/infrastructure_agent/linux/yum/el/${facts[operatingsystemmajrelease]}/x86_64",
+        baseurl       => "http://download.newrelic.com/infrastructure_agent/linux/yum/el/7/x86_64",
         gpgkey        => 'http://download.newrelic.com/infrastructure_agent/gpg/newrelic-infra.gpg',
         gpgcheck      => '1',
         repo_gpgcheck => '1',
